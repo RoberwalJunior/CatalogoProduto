@@ -1,0 +1,11 @@
+﻿using CatalogoProduto.Shared.Application.Dtos.Produto;
+
+namespace CatalogoProduto.Shared.Application.Dtos.Modelo;
+
+public class ReadModeloCompletoDto
+{
+    public int Id { get; set; }
+    public string? Descricao { get; set; }
+    public int QuantidadeEstoque { get; set; }
+    public ReadProdutoDto? Produto { get; set; }
+}
